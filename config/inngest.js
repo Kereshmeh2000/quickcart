@@ -3,7 +3,7 @@ import connectDB from "./db";
 import User from "@/models/User";
 
 export const inngest = new Inngest({
-  name: "quickcart-next",
+  id: "quickcart-next",
 });
 
 export const syncUserCreation = inngest.createFunction(
